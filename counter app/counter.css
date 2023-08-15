@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+body{
+    margin: 80px auto;
+    background-color: rgb(228, 190, 22);
+    color: white;
+}
+h2{
+    
+    margin-bottom: 20px;
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    border: none;
+    padding: 10px;
+    width: 250px;
+    color: white;
+    border-radius: 5px;
+    margin: 10px auto;
+    display: block;
+
+}
+#increment-btn{
+    background: yellowgreen;
+
+}
+#save-btn{
+    background: rgb(168, 247, 12);
+
+}
+
+button:active{
+    box-shadow: 2px 2px 1px black;
+}
+#error-el{
+    color: red;
+}
